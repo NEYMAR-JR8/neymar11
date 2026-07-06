@@ -1,50 +1,53 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
 <meta charset="UTF-8">
 <title>花畑</title>
 
 <style>
 .area{
-    position:relative;
-    width:900px;
+    position: relative;
+    width: 1200px;
+    margin: auto;
 }
 
 .bg{
-    width:900px;
+    width: 100%;
 }
 
 .message{
-    position:absolute;
-    top:30px;
-    left:30px;
-    background-color:white;
-    color:deeppink;
-    font-size:32px;
-    padding:15px;
-    border-radius:10px;
-}
+    position: absolute;
+    top: 40px;
+    left: 40px;
 
-.b1{
-    position:absolute;
-    left:150px;
-    top:450px;
-}
+    background: rgba(255,255,255,0.7);
+    padding: 20px;
 
-.b2{
-    position:absolute;
-    left:400px;
-    top:520px;
-}
-
-.b3{
-    position:absolute;
-    left:700px;
-    top:380px;
+    color: deeppink;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 .butterfly{
-    width:70px;
+    position: absolute;
+    width: 70px;
+}
+
+.b1{
+    left: 180px;
+    top: 620px;
+}
+
+.b2{
+    left: 560px;
+    top: 500px;
+}
+
+.b3{
+    left: 850px;
+    top: 610px;
 }
 </style>
 
@@ -54,13 +57,16 @@
 
 <div class="area">
 
+    <!-- 背景画像 -->
     <img src="bg0.png" class="bg">
 
+    <!-- メッセージ -->
     <div class="message">
         ぽかぽか陽気の穏やかな朝<br>
         花畑では、蝶々がのんびり飛んでいます
     </div>
 
+    <!-- 蝶 -->
     <img src="butterfly.gif" class="butterfly b1">
     <img src="butterfly.gif" class="butterfly b2">
     <img src="butterfly.gif" class="butterfly b3">
